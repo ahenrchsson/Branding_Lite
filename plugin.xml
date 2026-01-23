@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>branding_lite</name>
+  <version>1.0.0</version>
+  <author>Branding Lite</author>
+  <license>GPLv3+</license>
+  <homepage>https://glpi-project.org</homepage>
+  <minGlpiVersion>11.0.0</minGlpiVersion>
+</plugin>
