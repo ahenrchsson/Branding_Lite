@@ -31,12 +31,12 @@ function plugin_version_branding_lite(): array
     ];
 }
 
-function plugin_branding_lite_check_prerequisites(): bool
+function plugin_branding_lite_check_prerequisites(bool $verbose = false): bool
 {
     return true;
 }
 
-function plugin_branding_lite_check_config(): bool
+function plugin_branding_lite_check_config(bool $verbose = false): bool
 {
     return true;
 }
