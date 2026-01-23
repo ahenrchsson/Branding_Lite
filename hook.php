@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-require_once __DIR__ . '/inc/favicon.class.php';
-
 function plugin_branding_lite_add_header(): void
 {
+    require_once __DIR__ . '/inc/favicon.class.php';
+
     $url = PluginBrandingLiteFavicon::getPublicUrl();
     $mime = PluginBrandingLiteFavicon::getMime();
 

@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+require_once __DIR__ . '/hook.php';
+
 function plugin_init_branding_lite(): void
 {
     global $PLUGIN_HOOKS;
